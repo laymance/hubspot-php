@@ -11,7 +11,7 @@ class CrmProperties extends Resource
      *
      * @return \SevenShores\Hubspot\Http\Response
      */
-    public function get($object_type)
+    public function all($object_type)
     {
         $endpoint = "https://api.hubapi.com/properties/v2/{$object_type}/properties";
 
